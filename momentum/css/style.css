@@ -1,0 +1,85 @@
+.hidden {
+    display: none;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+    background-size: cover;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .clock {
+    font-size: 4rem;
+    color: white;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  input[type="text"]::placeholder {
+    color: white; /* 원하는 색상으로 변경하세요 */
+  }
+  
+  .form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white; /* 원하는 색상 및 굵기로 변경 가능합니다. */
+    outline: none; /* 포커스 시 테두리 제거 */
+  }
+  
+  .greeting {
+    color: white;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  
+  form h3 {
+    color: white;
+  }
+
+  #weather {
+    color: white;
+    float: left;
+  }
+  
+  #weather img {
+    display: inline-block;
+  }
+  #weather span {
+    display: block; /* 이미지와 스팬 요소들을 블록 요소로 설정하여 위아래로 배치될 수 있도록 합니다. */
+    margin-bottom: 1px; /* 각 요소들 사이의 간격을 설정합니다. */
+  }
+  
+  button {
+    color: white;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
